@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/v1/greeting/")
+@RequestMapping
 public class GreetingController {
 
     private final IGreetingService iGreetingService;
